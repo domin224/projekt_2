@@ -14,7 +14,6 @@ game_info_message_2 = "Let's play a bulls and cows game!"
 game_info_message_3 = "Enter a number:"
 
 def print_game_intro():
-    print(header)
     print(separator)
     print(hi_message)
     print(separator)
@@ -121,8 +120,8 @@ def play_game(random_number):
 
 
 print(header)
-random_number = generate_random_number()
 print_game_intro()
+random_number = generate_random_number()
 print_game_info()
 play_game(random_number)
 
